@@ -1,4 +1,17 @@
 # git cammand
--1. git config --list
--2. git config user.name
--3.git config user.email
+## global configuration command
+
+
+**git config --list**
+
+**git config user.name**
+
+**git config user.email**
+
+## Authentication cammand
+
+**two way to do authentication via ssh and HTTPS**
+
+**ssh -T git@github.com**
+
+
