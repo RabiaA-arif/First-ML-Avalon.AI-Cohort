@@ -15,3 +15,10 @@
 **ssh -T git@github.com**
 
 
+
+
+
+
+## Generating and add ssh key to git bash
+
+**ssh-keygen -t ed25519 -C "our email"**
