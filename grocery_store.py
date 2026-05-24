@@ -4,11 +4,16 @@ item_price: dict = {"chia": 200, "sugar": 230, "elachi": 80,"oil": 750, "chawal"
 
 user_input: str =input("Enter The Name of Item: ")
 # price: int = item_price.get(user_input)
-price: int = item_price[user_input]
 if user_input in item_price:
+    price: int = item_price[user_input]
     if 100 <= price <= 500:
-            print("item available")
-            print(price)
+        print("item available")
+        # print(price)
+    else:
+        print("item price is not in range")
+        
+else:
+    print("item is not available")
     
     
         
