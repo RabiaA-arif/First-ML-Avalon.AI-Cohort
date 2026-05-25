@@ -7,3 +7,6 @@ In this repository i dedicated to practical work of machine learning engineer
 
 New topics we study is str function 
 .join in depths 
+
+Memory management 
+integers interning 
