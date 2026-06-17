@@ -1,0 +1,6 @@
+EmployeeID,Name,Department,Age,Salary_USD,Is_FullTime
+101,Amina Tariq,Engineering,28,65000,TRUE
+102,Ali Raza,Sales,34,54000,TRUE
+103,Fatima Noor,HR,29,58000,FALSE
+104,Imran Khan,Engineering,41,82000,TRUE
+105,Sana Ahmed,Marketing,26,49000,FALSE
