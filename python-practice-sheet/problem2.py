@@ -25,3 +25,6 @@ def display(name,roll_no,marks1,marks2):
 print(dis =display(accept("aimen","23ai01",83,79)))
 
 ############# not complete ###########
+
+
+
