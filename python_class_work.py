@@ -50,3 +50,42 @@ import random
 for i in range(5):
   random_num = random.randint(100,200)
   print(f"Random number is:{random_num}")
+########### 7/7/2026
+
+
+
+# string
+def department_name(name):
+  n = name + " quest"
+  print(f"Department is : {n}")
+
+print(department_name("cs"))
+
+
+
+# int 
+def add_num(num):
+  n = 3
+  n += num
+  print(f"Addition of number is :{n}")
+
+print(add_num(6))
+
+
+
+# tuple 
+def my_collection(a):
+  item = ("hello","Rabia",1,2,3,4)
+  item += (a,)
+  print(f"My tuple is :{item}")
+
+print(my_collection(33))
+
+
+
+def fruits_list(my_list :list):
+  list1 = ["cs"]
+  list1.append(my_list)
+  print(f"All item in my list:{list1}")
+
+print(fruits_list(["AI","quest"]))
